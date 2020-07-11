@@ -14,6 +14,13 @@
     <!-- My Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <!-- Tooltips -->
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
     <title>Assessment Examination Center</title>
 </head>
 <body>
@@ -24,11 +31,47 @@
 
         <div class="question_paper">
             <span></span>
-            <a href="#" class="pl-1 text-decoration-none text-white">Question Paper</a>
+            <a href="#" class="pl-1 text-decoration-none text-white" data-toggle="modal" data-target="#question_model">Question Paper</a>
         </div>
         <div class="instructions">
             <span class="instructions_icon"></span>
-            <a  href="#" class="pl-1 text-decoration-none text-white">Instructions</a>
+            <a href="#" class="pl-1 text-decoration-none text-white" data-toggle="modal" data-target="#instructions_modal">Instructions</a>
+        </div>
+
+        <!-- Question Paper Modal -->
+        <div class="modal fade" id="question_model" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="bg-primary text-white d-flex justify-content-between align-items-center p-2">
+                        <h5 id="exampleModalLabel">Question Paper</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-dark">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam sint, at exercitationem necessitatibus doloremque consequuntur dolorem aliquid consectetur perferendis perspiciatis! Commodi, architecto atque nam, facere perferendis, magni ipsa ipsam totam consequuntur perspiciatis necessitatibus aut! Cumque, maiores. Quos eos id ipsam, enim ea sapiente amet iure aperiam veritatis, dolorum mollitia consequatur non autem quaerat numquam quasi cum unde rerum ullam reiciendis rem libero? Quia quam accusantium voluptates delectus? Saepe quibusdam, minima dolor excepturi, officia iusto beatae numquam tempora recusandae doloribus dolorum veniam error iure pariatur, facilis quod eaque aliquid! Totam, molestias. Officia, ipsum excepturi suscipit laboriosam illum nihil rerum quaerat autem, reprehenderit voluptatum soluta quis, sunt itaque. Ex nam facere, id ipsum excepturi similique impedit asperiores, totam minima libero rerum! Veniam asperiores quo illo dolorum eaque dolores ducimus mollitia recusandae quae natus dignissimos nostrum exercitationem non, rerum reiciendis laudantium sequi ullam reprehenderit nam sapiente amet voluptas dolor! Id soluta animi eius culpa assumenda cumque dignissimos corporis iste nemo, iusto aperiam ab perspiciatis rerum. Vitae harum ad asperiores itaque, numquam saepe corrupti! Iusto quas quidem consequuntur cupiditate debitis nam est nulla atque praesentium doloribus earum deleniti alias aliquam, laudantium nobis fugit molestiae aperiam ex recusandae velit excepturi ratione fugiat dignissimos cumque? Quaerat sed repellendus nobis impedit earum itaque laborum similique quis, nam a, obcaecati, quibusdam quas aperiam ipsa mollitia provident cupiditate dolores at velit. Alias tenetur, nihil modi dolorum sint saepe provident nam, fugit assumenda ipsa, magni reprehenderit eum sunt hic aperiam! Deserunt numquam quas at dolor expedita illo placeat repellat eligendi quisquam iste mollitia fuga voluptatibus non asperiores, quod, aspernatur ipsum dignissimos tempora sit! Odit in ut voluptas suscipit alias dolores optio temporibus iure nemo ipsum, impedit rem ratione totam ullam omnis facilis, laboriosam quae possimus fugit eligendi et. Rerum deleniti architecto possimus provident, ex deserunt blanditiis obcaecati earum exercitationem nisi, quam omnis vel, accusantium molestias? Pariatur saepe aspernatur, voluptate quasi veniam aliquid officia dolore nesciunt animi ad laboriosam, et earum, architecto unde magni molestiae eaque quo aut iure. Incidunt iste perferendis, adipisci nisi, quis assumenda voluptate accusantium dolores eos quae velit est reprehenderit eius, illo ullam. Neque, maiores. Voluptas amet corporis aspernatur debitis rem, nemo similique. Placeat nisi fugit expedita optio quisquam dicta suscipit omnis aperiam animi doloremque vitae necessitatibus modi voluptate voluptatum quod culpa, eveniet possimus, quae in deserunt id commodi! Vero, unde! Assumenda animi porro, possimus debitis, totam doloribus quasi nam eaque corporis aliquid dolorem obcaecati vel. Libero aspernatur dolores laborum unde ullam quidem iusto alias illum, nulla harum soluta sunt excepturi quod esse porro pariatur mollitia voluptatum impedit suscipit animi minima nihil quis. Dolores odit similique reiciendis porro illum vitae ipsam autem officia illo enim modi qui ab corrupti, sed consequatur quasi. Exercitationem neque tempora autem incidunt eligendi? Iste ipsum aut repudiandae provident repellendus numquam ab soluta iusto. Deserunt quas magni numquam beatae magnam laboriosam, corporis accusamus adipisci! Sapiente tenetur facere, minus pariatur repudiandae voluptatibus facilis nesciunt amet quaerat similique voluptatem corporis animi. Iure nam ipsam eos soluta dolore facilis quos accusamus voluptatum numquam fuga, eum tenetur.
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, nemo iusto impedit cupiditate consequuntur, ullam inventore deserunt libero repudiandae fugit hic? Modi iure vitae quis, rerum debitis harum perspiciatis accusamus, molestiae unde dignissimos sint quam odit veritatis, laboriosam quae nobis quas illum? Ipsa eos inventore iure distinctio magni fugit velit quos tempore accusantium! Ea, accusamus qui. A, dicta dolor. Iste iusto quo dolore corrupti commodi pariatur debitis rem excepturi voluptatum eos dolorem dolor odit ad quibusdam enim eveniet rerum, odio explicabo cum provident perspiciatis eaque dolores. Eum ducimus laudantium tempore voluptas velit similique sapiente fuga odio facere officia cum, a tenetur dolore veniam facilis earum aliquid, quas excepturi mollitia ratione ad quam? Repudiandae, deserunt molestias! Deserunt magnam, illo perspiciatis saepe amet facere error dignissimos nostrum, tempora illum doloribus nesciunt, eaque accusamus fugiat iusto? Voluptates quo modi impedit ratione mollitia id amet iusto perferendis minus hic laborum repellendus porro dolores, magnam aspernatur delectus, eum vero quisquam odio accusantium accusamus in cum. Expedita magnam qui voluptatibus architecto nihil placeat deserunt sunt nobis, cumque adipisci vel repellendus excepturi, reprehenderit minima in! Velit placeat corrupti, maxime illum, quis praesentium pariatur tempore incidunt sequi, harum adipisci nesciunt aut dolorum rem quo officia ea assumenda ipsam cupiditate asperiores deserunt. Rem minus a earum doloribus error expedita fuga, velit ducimus, quae sunt autem! Suscipit consequuntur amet odit perferendis explicabo corrupti voluptates praesentium vitae voluptatem sit. Assumenda aspernatur aperiam at atque vero sunt impedit esse quo, fugit dolore iste quaerat tempore nobis cum fugiat laudantium quas inventore minima delectus, doloremque quae minus eveniet sed. Quasi placeat officia dolorum nobis hic cumque ipsam iste quibusdam architecto. Ullam cumque, culpa delectus eligendi, aut tempore sint quam dolore in repellat architecto reiciendis! Voluptate sapiente, reiciendis iure labore nihil vitae dolor reprehenderit, tenetur, et distinctio perferendis eveniet esse vero explicabo consequuntur nulla fuga provident adipisci? Optio iste eius necessitatibus saepe laborum debitis dignissimos officiis, accusantium officia. Nostrum mollitia nemo magnam dolorum itaque sed, iure dolor repellat alias consequuntur unde, consequatur aliquam! Sunt pariatur dignissimos dolor eum dolorem sint expedita, hic aut nesciunt veritatis aliquid, reiciendis fuga ab! Consectetur consequatur, reiciendis dolorem deleniti nulla quisquam atque excepturi qui hic saepe exercitationem laboriosam placeat est officia sequi temporibus eaque maiores, neque debitis et ipsa! Cumque eveniet numquam provident eos debitis, nisi quaerat obcaecati inventore voluptatibus reprehenderit accusamus quis iusto, quibusdam rerum aliquid voluptate corrupti architecto nam! Harum provident adipisci minus, placeat sequi iste perferendis porro unde recusandae totam, suscipit, sapiente eveniet non mollitia! Reiciendis non cum, asperiores, iste nam perferendis ad placeat dignissimos sapiente deleniti amet est aperiam excepturi? Nemo molestiae non iste in impedit tempore expedita doloremque facere delectus quis voluptas tenetur, quas aperiam enim consequuntur odit. Iure quibusdam perferendis voluptatibus ad voluptatem praesentium, aspernatur doloribus alias corrupti consectetur hic minus sed! Deserunt atque sunt quas officia quasi architecto mollitia illo itaque, hic necessitatibus molestiae, repellendus perspiciatis quae non quaerat, asperiores illum labore! Aliquam repellat harum eum atque consequuntur, dolore dolorem fugit illo repudiandae sequi soluta quam iste totam cumque velit animi et.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instructions Modal -->
+        <div class="modal fade" id="instructions_modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-xl">
+                <div class="modal-content">
+                    <div class="bg-primary text-white d-flex justify-content-between align-items-center p-2">
+                        <h5 id="exampleModalLabel">Instructions</h5>
+                        <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-dark">
+                        <p class="text-center font-weight-bold  ">Instructions</p>
+                    </div>
+                </div>
+            </div>
         </div>
   
     </div>
@@ -105,6 +148,7 @@
                 </div>
             </div>
             <div class="col-2 p-0" style="border: 2px solid #000;">
+                <span class="collapse_icon"></span>
                 <div class="row p-3 m-0" style="font-size: 0.8rem;">
                     <div class="col-6 p-0">
                         <span class="small_answered">0</span>
